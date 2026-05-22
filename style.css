@@ -1,0 +1,139 @@
+/* --- Global Styles --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #fdfbfb, #ebedee);
+    color: #333;
+}
+
+/* --- Centered Layout Container --- */
+/* This will squeeze the content out of the edges and center it like a real website */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* --- Header Section --- */
+header {
+    background: #6c63ff;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-top: 10px;
+}
+
+/* --- Sections --- */
+section {
+    background: white;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 750px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+}
+
+h2 {
+    color: #6c63ff;
+    margin-top: 0;
+    border-bottom: 2px solid #eef2ff;
+    padding-bottom: 10px;
+}
+
+/* --- Skills Layout --- */
+.skills-container {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.skill-box {
+    background: #ffffff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border-left: 5px solid #6c63ff;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+/* --- Project Card --- */
+.project-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #ff4b91;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    margin-top: 15px;
+}
+
+/* --- Contact Form (Fixed Sizing) --- */
+/* This prevents your text inputs from stretching across the entire monitor screen */
+form {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f8fafc;
+    box-sizing: border-box; /* Keeps everything perfectly aligned */
+    transition: all 0.3s ease;
+}
+
+input:focus, 
+textarea:focus {
+    outline: none;
+    border-color: #6c63ff;
+    background-color: white;
+    box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.1);
+}
+
+/* --- Pink Action Button --- */
+button {
+    width: 100%; /* Makes the button perfectly match the input boxes width */
+    background: #ff4b91;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(255, 75, 145, 0.2);
+}
+
+button:hover {
+    background: #ff2e7a;
+    transform: translateY(-1px);
+}
+
+/* --- Footer --- */
+footer {
+    background: #6c63ff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 0.9rem;
+}
